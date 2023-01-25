@@ -1,11 +1,11 @@
 USE codeup_test_db;
 
---Select 'the name of all albums by pink floyd' as message
+# Select 'the name of all albums by pink floyd' as message
 SELECT album_name AS 'Pink Floyd Albums' FROM albums WHERE artist='Pink Floyd';
 
 
 
---select 'the year Sgt. Pepper's lonely hearts club band was released' as message
+# --select 'the year Sgt. Pepper's lonely hearts club band was released' as message
 SELECT release_date AS 'Sgt. Pepper''s Lonely Hearts Club Band release date' FROM albums WHERE album_name='Sgt. Pepper''s Lonely Hearts Club Band';
 
 
